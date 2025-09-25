@@ -1,0 +1,125 @@
+# Dépendances Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de build/compilation TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Variables d'environnement (SECRETS)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage des tests
+coverage/
+*.lcov
+.nyc_output
+
+# Fichiers de cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Éditeurs et IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dossiers temporaires
+tmp/
+temp/
+.tmp/
+
+# Base de données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads de fichiers
+uploads/
+public/uploads/
+
+# SSL/TLS certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# MongoDB dump
+dump/
+
+# Redis dump
+dump.rdb
+
+# Webpack
+.webpack/
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# SvelteKit build / generate output
+.svelte-kit
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Next.js build output
+.next
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
