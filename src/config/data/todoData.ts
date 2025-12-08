@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const todoConnection = async () =>{
+const todoConnection = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI as string);
         console.log('Connected to MongoDB');
